@@ -14,7 +14,7 @@
       }
     },
     "address": "https://ernstkl.github.io/fdroid/repo",
-    "timestamp": 1793206901000,
+    "timestamp": 1793225681000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -32,7 +32,7 @@
         ],
         "changelog": "https://github.com/ernstkl/mtpv/releases",
         "issueTracker": "https://github.com/ernstkl/mtpv/issues",
-        "lastUpdated": 1793206206000,
+        "lastUpdated": 1793225677000,
         "license": "GPL-3.0-or-later",
         "sourceCode": "https://github.com/ernstkl/mtpv",
         "webSite": "https://github.com/ernstkl/mtpv",
@@ -87,6 +87,61 @@
         "preferredSigner": "68260a8c83d3c9eaf9251231507374b91fe94760348570cfab78ef2b1918b06e"
       },
       "versions": {
+        "7a53aecea0192bb2a15e2a6041d12227d4fa3c26783c89c4c5d39982fad4e50c": {
+          "added": 1793225677000,
+          "file": {
+            "name": "/io.github.ernstkl.multitabletpdfviewer_5.apk",
+            "sha256": "7a53aecea0192bb2a15e2a6041d12227d4fa3c26783c89c4c5d39982fad4e50c",
+            "size": 2384973
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.12.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "68260a8c83d3c9eaf9251231507374b91fe94760348570cfab78ef2b1918b06e"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "io.github.ernstkl.multitabletpdfviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "f17e2c5cfbbe602dd13bc9d10e38e5fccc05f47cc97a3c8d82785228dbcba212": {
           "added": 1793206206000,
           "file": {
