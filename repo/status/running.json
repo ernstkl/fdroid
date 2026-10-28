@@ -1,0 +1,40 @@
+{
+  "/etc/issue.net": "Ubuntu 26.04.1 LTS",
+  "antiFeatures": {},
+  "apksigner": "/usr/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/usr/bin/fdroid update",
+    "-q",
+    "--pretty",
+    "--rename-apks"
+  ],
+  "disabled": [],
+  "endTimestamp": 1793206214408,
+  "failedBuilds": {},
+  "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
+  "keytool": "/usr/lib/jvm/default-java/bin/keytool",
+  "needsUpdate": [
+    "io.github.ernstkl.multitabletpdfviewer"
+  ],
+  "noPackages": [
+    "io.github.ernstkl.multitabletpdfviewer"
+  ],
+  "noUpdateCheck": [
+    "io.github.ernstkl.multitabletpdfviewer"
+  ],
+  "stages": {
+    "archive_old_apks archive": 1793206206191,
+    "delete_disabled_builds": 1793206205745,
+    "index.make archive": 1793206206192,
+    "index.make repo": 1793206211284,
+    "prepare_apps archive": 1793206206192,
+    "prepare_apps repo": 1793206209632,
+    "process_apks": 1793206205745,
+    "read_added_date_from_all_apks": 1793206206191,
+    "remove_apks": 1793206206190,
+    "scan_repo_files": 1793206206190
+  },
+  "startTimestamp": 1793202605000,
+  "subcommand": "update"
+}
