@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps by ernstkl</title>
+<link rel="icon" href="repo/icons/icon.png">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5d5b55; --line: #dedbd2; --accent: #1f5f8b; --box: #f1efe8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1b1a; --fg: #ecebe6; --muted: #a8a59c; --line: #3a3936; --accent: #8cc4ea; --box: #252523; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 2rem 16px 3rem; }
+  header { display: flex; gap: 14px; align-items: center; margin-bottom: 1.5rem; }
+  header img { width: 56px; height: 56px; border-radius: 12px; }
+  h1 { font-size: 1.5rem; margin: 0; line-height: 1.2; }
+  header p { margin: 2px 0 0; color: var(--muted); }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  ol { padding-left: 1.4rem; }
+  li { margin-bottom: 1rem; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .button {
+    display: inline-block; margin: .4rem 0; padding: .55rem 1rem; border-radius: 8px;
+    background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600;
+  }
+  .note { color: var(--muted); font-size: .93rem; }
+  code { background: var(--box); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+  .qr { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; }
+  .qr img { width: 160px; height: 160px; background: #fff; padding: 6px; border-radius: 6px; }
+  .fp { font-family: ui-monospace, monospace; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="repo/icons/icon.png" alt="">
+    <div>
+      <h1>MTPV: Multi-Tablet PDF Viewer</h1>
+      <p>Sheet music and PDFs on one tablet or spread across several, one page per screen, with notes.</p>
+    </div>
+  </header>
+
+  <h2>Installing</h2>
+  <p>Do this on each Android tablet you want to use (Android 10 or newer).</p>
+  <ol>
+    <li>
+      <strong>Install an F-Droid app.</strong> Open f-droid.org, tap <em>Download F-Droid</em> and open the
+      downloaded file.<br>
+      <a class="button" href="https://f-droid.org">f-droid.org</a><br>
+      <span class="note">Android asks whether your browser may install apps: allow it. If Google Play
+      Protect offers to scan the app, choose <em>Scan</em>.</span>
+    </li>
+    <li>
+      <strong>Add this app repository.</strong> Tap the button, choose to open it with F-Droid and confirm
+      <em>Add repository</em>.<br>
+      <a class="button" href="https://fdroid.link/#https://ernstkl.github.io/fdroid/repo?fingerprint=F5AF80D34971161C07B0174901165874042E9EF6E4CF80C008BB98C6FC7EE28C">Add repository</a><br>
+      <span class="note">If F-Droid does not open: in F-Droid go to <em>Settings → Repositories → +</em>
+      and enter <code>https://ernstkl.github.io/fdroid/repo</code>.</span>
+    </li>
+    <li>
+      <strong>Install MTPV.</strong> Search for <em>MTPV</em> in F-Droid and install it. Allow F-Droid to
+      install apps when Android asks. F-Droid shows you updates later.
+    </li>
+    <li>
+      <strong>Connecting tablets:</strong> the first time, MTPV asks for the location permission. Android
+      needs it for the direct connection between tablets; MTPV never reads your position.
+    </li>
+  </ol>
+
+  <h2>Without F-Droid</h2>
+  <p>Download <code>mtpv-x.y.z.apk</code> from the
+  <a href="https://github.com/ernstkl/mtpv/releases">releases page</a> and open it. Updates do not come by
+  themselves then.</p>
+
+  <p class="note">Source code and documentation: <a href="https://github.com/ernstkl/mtpv">github.com/ernstkl/mtpv</a></p>
+
+  <div class="qr">
+    <p class="note">Viewing this on another device? Scan this in F-Droid to add the repository:</p>
+    <img src="repo/index.png" alt="QR code of the repository address">
+    <p class="fp">Repository key fingerprint (SHA-256):<br>
+    F5AF80D34971161C07B0174901165874042E9EF6E4CF80C008BB98C6FC7EE28C</p>
+  </div>
+</main>
+</body>
+</html>
