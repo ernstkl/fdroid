@@ -1,0 +1,70 @@
+{
+  "repo": {
+    "timestamp": 1793298090000
+  },
+  "packages": {
+    "io.github.ernstkl.multitabletpdfviewer": {
+      "metadata": {
+        "lastUpdated": 1793298085000
+      },
+      "versions": {
+        "f17e2c5cfbbe602dd13bc9d10e38e5fccc05f47cc97a3c8d82785228dbcba212": null,
+        "6834c85c4de84cf14e6be7bf4d2dd022d13177b4b27c502cb4c4ea85fe31b42f": {
+          "added": 1793298085000,
+          "file": {
+            "name": "/io.github.ernstkl.multitabletpdfviewer_7.apk",
+            "sha256": "6834c85c4de84cf14e6be7bf4d2dd022d13177b4b27c502cb4c4ea85fe31b42f",
+            "size": 2369369
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.12.2",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "68260a8c83d3c9eaf9251231507374b91fe94760348570cfab78ef2b1918b06e"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.NEARBY_WIFI_DEVICES"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "io.github.ernstkl.multitabletpdfviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
