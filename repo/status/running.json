@@ -10,7 +10,7 @@
     "--rename-apks"
   ],
   "disabled": [],
-  "endTimestamp": 1793225685106,
+  "endTimestamp": 1793262019643,
   "failedBuilds": {},
   "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
   "keytool": "/usr/lib/jvm/default-java/bin/keytool",
@@ -24,17 +24,17 @@
     "io.github.ernstkl.multitabletpdfviewer"
   ],
   "stages": {
-    "archive_old_apks archive": 1793225677223,
-    "delete_disabled_builds": 1793225676510,
-    "index.make archive": 1793225677223,
-    "index.make repo": 1793225681962,
-    "prepare_apps archive": 1793225677223,
-    "prepare_apps repo": 1793225680384,
-    "process_apks": 1793225676511,
-    "read_added_date_from_all_apks": 1793225677222,
-    "remove_apks": 1793225677215,
-    "scan_repo_files": 1793225677214
+    "archive_old_apks archive": 1793262011997,
+    "delete_disabled_builds": 1793262010999,
+    "index.make archive": 1793262011997,
+    "index.make repo": 1793262016894,
+    "prepare_apps archive": 1793262011997,
+    "prepare_apps repo": 1793262015265,
+    "process_apks": 1793262011000,
+    "read_added_date_from_all_apks": 1793262011996,
+    "remove_apks": 1793262011988,
+    "scan_repo_files": 1793262011987
   },
-  "startTimestamp": 1793222076000,
+  "startTimestamp": 1793258410000,
   "subcommand": "update"
 }
